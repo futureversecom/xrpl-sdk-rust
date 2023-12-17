@@ -1,4 +1,6 @@
 //! Binary serialization for XRPL Protocol objects.
+#![allow(stable_features)]
+#![feature(once_cell)]
 
 #![cfg_attr(not(feature = "std"), no_std)]
 extern crate alloc;
